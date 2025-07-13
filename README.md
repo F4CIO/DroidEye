@@ -6,7 +6,7 @@ Capture and retrieve photo from your Android device via this minimal API. Writte
 This API runs as an HTTP server on android device and integrates with camera hardware.
 DroidEye API provides a simple REST interface for:
 - Capturing photos remotely HTTP call
-- Retrieving captured photo for using in <img src='urlToThisApi'> tag
+- Retrieving captured photo for using in < img src='urlToThisApi' > tag
 - Downloading large image files in chunks
 - Previewing last photo on Android
 - Retrieving operation logs
