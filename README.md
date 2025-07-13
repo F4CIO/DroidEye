@@ -8,6 +8,7 @@ DroidEye API provides a simple REST interface for:
 - Capturing photos remotely HTTP call
 - Retrieving captured photo for using in <img src='urlToThisApi'> tag
 - Downloading large image files in chunks
+- Previewing last photo on Android
 - Retrieving operation logs
 - App must run in foreground for capture to happen
 
@@ -250,7 +251,10 @@ photo_folder_path = default
 wait_x_seconds_on_ui_capture = 60 
 
 # Path to dummy image file to serve by get_img method if requested file is not found
-dummy_file_path = dummy.jpg 
+dummy_file_path = dummy.jpg
+
+# Show preview of last captured photo in top right corner of log box
+preview_last_photo = True 
 ```
 
 #### Configuration Options
