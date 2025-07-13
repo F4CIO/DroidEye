@@ -12,6 +12,31 @@ DroidEye API provides a simple REST interface for:
 - Retrieving operation logs
 - App must run in foreground for capture to happen
 
+## Quick Start
+
+As usual for python projects, create and activate virtual environment in terminal
+(if your favourite IDE does not do this for you) with:
+```
+python -m venv .venv
+.venv\Scripts\activate (if on windows)
+source .venv/bin/activate (if on linux/mac)
+
+```
+Install dependencies with:
+```
+pip install -r requirements.txt
+```
+
+Run/debug in your favourite IDE or with:
+```
+python main.py
+```
+
+Build apk using buildozer with:
+```
+buildozer -v android debug
+```
+
 ## API Endpoints
 
 ### 1. Capture Photo
