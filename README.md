@@ -1,6 +1,7 @@
 # DroidEye
 Capture and retrieve photo from your Android device via this minimal API. Written in Python. Can be compiled into .APK with Buildozer.
 
+
 ## Overview
 
 This API runs as an HTTP server on android device and integrates with camera hardware.
@@ -11,6 +12,8 @@ DroidEye API provides a simple REST interface for:
 - Previewing last photo on Android
 - Retrieving operation logs
 - App must run in foreground for capture to happen
+
+<img src="https://github.com/F4CIO/DroidEye/blob/main/DroidEye.jpg" alt="DroidEye" style="max-width: 30%; width: 30%;">
 
 ## Quick Start
 
